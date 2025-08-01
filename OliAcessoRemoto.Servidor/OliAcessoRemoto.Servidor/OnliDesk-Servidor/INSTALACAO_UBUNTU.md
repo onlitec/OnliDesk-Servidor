@@ -234,11 +234,45 @@ sudo tail -f /var/log/nginx/error.log
 
 ### Testar acesso:
 ```bash
-# Teste local
-curl http://localhost:5165
+# Teste do health check
+curl http://localhost:5165/health
+
+# Teste da página principal via aplicação
+curl -I http://localhost:5165/
 
 # Teste via Nginx
-curl http://localhost
+curl -I http://localhost/
+```
+
+### Verificar se a página de gerenciamento está sendo servida:
+```bash
+# Deve retornar HTML da página de gerenciamento
+curl http://localhost/ | head -20
+
+# Verificar se arquivos estáticos estão acessíveis
+curl -I http://localhost/css/dashboard.css
+curl -I http://localhost/js/dashboard.js
+```
+
+**Importante**: Se você estiver vendo apenas a página de health check em vez da interface de gerenciamento, verifique:
+
+1. **Ordem das rotas no Program.cs**: O endpoint `/health` deve vir antes do fallback
+2. **Arquivos estáticos**: Certifique-se de que a pasta `wwwroot` foi copiada corretamente
+3. **Permissões**: Verifique se o usuário `www-data` tem acesso aos arquivos
+
+### Solução de problemas comuns:
+
+#### Problema: Página de health em vez da interface de gerenciamento
+```bash
+# Verificar se os arquivos estáticos existem
+ls -la /opt/OnliDesk-Servidor/publish/wwwroot/
+
+# Se não existirem, recompilar com arquivos estáticos
+cd /opt/OnliDesk-Servidor
+dotnet publish --configuration Release --output ./publish
+
+# Reiniciar o serviço
+sudo systemctl restart onlidesk-servidor
 ```
 
 ## 🔄 Comandos de Manutenção

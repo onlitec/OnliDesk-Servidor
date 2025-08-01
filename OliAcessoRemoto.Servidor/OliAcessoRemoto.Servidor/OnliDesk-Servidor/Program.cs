@@ -58,18 +58,28 @@ app.UseCors("AllowAll");
 app.UseStaticFiles();
 app.UseRouting();
 
-app.MapControllers();
-app.MapHub<RemoteAccessHub>("/remotehub");
-app.MapHub<MonitoringHub>("/monitoringhub");
-
-// Servir a interface web
-app.MapFallbackToFile("index.html");
-
-// Health check endpoint
+// Health check endpoint (deve vir antes do fallback)
 app.MapGet("/health", () => new { 
     Status = "Healthy", 
     Timestamp = DateTime.UtcNow,
     Version = "1.0.0"
 });
+
+// API Controllers
+app.MapControllers();
+
+// SignalR Hubs
+app.MapHub<RemoteAccessHub>("/remotehub");
+app.MapHub<MonitoringHub>("/monitoringhub");
+
+// Rota raiz explícita para servir a página principal
+app.MapGet("/", async context =>
+{
+    context.Response.ContentType = "text/html";
+    await context.Response.SendFileAsync("wwwroot/index.html");
+});
+
+// Fallback para arquivos estáticos (deve vir por último)
+app.MapFallbackToFile("index.html");
 
 app.Run();

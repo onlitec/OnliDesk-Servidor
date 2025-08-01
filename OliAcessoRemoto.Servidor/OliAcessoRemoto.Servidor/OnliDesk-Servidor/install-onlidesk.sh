@@ -97,8 +97,21 @@ dotnet restore
 # Compilar em Release
 dotnet build --configuration Release
 
-# Publicar aplicação
+# Publicar aplicação (incluindo arquivos estáticos)
 dotnet publish --configuration Release --output ./publish
+
+# Verificar se os arquivos estáticos foram copiados
+if [ ! -f "./publish/wwwroot/index.html" ]; then
+    warning "Arquivos estáticos não foram copiados automaticamente. Copiando manualmente..."
+    cp -r wwwroot ./publish/
+fi
+
+# Verificar novamente
+if [ -f "./publish/wwwroot/index.html" ]; then
+    log "✅ Arquivos estáticos copiados com sucesso!"
+else
+    error "❌ Falha ao copiar arquivos estáticos"
+fi
 
 # Passo 7: Criar configuração de produção
 log "Criando configuração de produção..."
@@ -274,6 +287,12 @@ sudo git pull origin master
 # Recompilar
 dotnet publish --configuration Release --output ./publish
 
+# Verificar se os arquivos estáticos foram copiados
+if [ ! -f "./publish/wwwroot/index.html" ]; then
+    echo "⚠️  Copiando arquivos estáticos manualmente..."
+    cp -r wwwroot ./publish/
+fi
+
 # Definir permissões
 sudo chown -R www-data:www-data /opt/OnliDesk-Servidor
 
@@ -281,6 +300,7 @@ sudo chown -R www-data:www-data /opt/OnliDesk-Servidor
 sudo systemctl start onlidesk-servidor
 
 echo "✅ Atualização concluída!"
+echo "🌐 Teste o acesso em: http://$(hostname -I | awk '{print $1}')"
 EOF
 
 sudo chmod +x /opt/OnliDesk-Servidor/update.sh
