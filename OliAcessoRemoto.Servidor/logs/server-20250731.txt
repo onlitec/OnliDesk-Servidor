@@ -1,0 +1,295 @@
+2025-07-31 22:07:35.508 -03:00 [INF] Now listening on: http://localhost:5165
+2025-07-31 22:07:35.622 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-31 22:07:35.640 -03:00 [INF] Hosting environment: Development
+2025-07-31 22:07:35.643 -03:00 [INF] Content root path: C:\Users\alfreire\onlidesk\RiderProjects\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor
+2025-07-31 22:07:47.001 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/?ide_webview_request_time=1754010466925 - null null
+2025-07-31 22:07:47.094 -03:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2025-07-31 22:07:47.136 -03:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'C:\Users\alfreire\onlidesk\RiderProjects\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor\wwwroot\index.html'
+2025-07-31 22:07:47.138 -03:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2025-07-31 22:07:47.141 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/index.html?ide_webview_request_time=1754010466925 - 200 16986 text/html 144.8247ms
+2025-07-31 22:07:47.187 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/css/dashboard.css - null null
+2025-07-31 22:07:47.190 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/js/dashboard.js - null null
+2025-07-31 22:07:47.202 -03:00 [INF] Sending file. Request path: '/css/dashboard.css'. Physical path: 'C:\Users\alfreire\onlidesk\RiderProjects\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor\wwwroot\css\dashboard.css'
+2025-07-31 22:07:47.202 -03:00 [INF] Sending file. Request path: '/js/dashboard.js'. Physical path: 'C:\Users\alfreire\onlidesk\RiderProjects\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor\wwwroot\js\dashboard.js'
+2025-07-31 22:07:47.208 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/js/dashboard.js - 200 20217 text/javascript 17.9694ms
+2025-07-31 22:07:47.208 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/css/dashboard.css - 200 4907 text/css 20.9354ms
+2025-07-31 22:07:47.465 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5165/monitoringhub/negotiate?negotiateVersion=1 - null 0
+2025-07-31 22:07:47.473 -03:00 [INF] CORS policy execution successful.
+2025-07-31 22:07:47.477 -03:00 [INF] Executing endpoint '/monitoringhub/negotiate'
+2025-07-31 22:07:47.495 -03:00 [INF] Executed endpoint '/monitoringhub/negotiate'
+2025-07-31 22:07:47.497 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5165/monitoringhub/negotiate?negotiateVersion=1 - 200 316 application/json 32.2416ms
+2025-07-31 22:07:47.516 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/monitoringhub?id=MsOBJ7KFL0cmB1Jw_gSiMg - null null
+2025-07-31 22:07:47.520 -03:00 [INF] CORS policy execution successful.
+2025-07-31 22:07:47.522 -03:00 [INF] Executing endpoint '/monitoringhub'
+2025-07-31 22:07:47.712 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/@vite/client - null null
+2025-07-31 22:07:47.717 -03:00 [INF] CORS policy execution successful.
+2025-07-31 22:07:47.718 -03:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2025-07-31 22:07:47.721 -03:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'C:\Users\alfreire\onlidesk\RiderProjects\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor\wwwroot\index.html'
+2025-07-31 22:07:47.723 -03:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2025-07-31 22:07:47.725 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/index.html - 200 16986 text/html 12.4815ms
+2025-07-31 22:07:48.787 -03:00 [INF] Monitoring client conectado: 8xr83g79MldJ10BvPFcFrA
+2025-07-31 22:07:48.801 -03:00 [INF] Dashboard conectado: 8xr83g79MldJ10BvPFcFrA
+2025-07-31 22:08:30.918 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/?ide_webview_request_time=1754010510902 - null null
+2025-07-31 22:08:30.924 -03:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2025-07-31 22:08:30.928 -03:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'C:\Users\alfreire\onlidesk\RiderProjects\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor\wwwroot\index.html'
+2025-07-31 22:08:30.932 -03:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2025-07-31 22:08:30.933 -03:00 [INF] Monitoring client desconectado: 8xr83g79MldJ10BvPFcFrA
+2025-07-31 22:08:30.934 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/index.html?ide_webview_request_time=1754010510902 - 200 16888 text/html 16.049ms
+2025-07-31 22:08:30.940 -03:00 [INF] Executed endpoint '/monitoringhub'
+2025-07-31 22:08:30.945 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/monitoringhub?id=MsOBJ7KFL0cmB1Jw_gSiMg - 101 null null 43428.8704ms
+2025-07-31 22:08:30.953 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/css/dashboard.css - null null
+2025-07-31 22:08:30.962 -03:00 [INF] The file /css/dashboard.css was not modified
+2025-07-31 22:08:30.965 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/css/dashboard.css - 304 null text/css 12.1859ms
+2025-07-31 22:08:30.969 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/js/dashboard.js - null null
+2025-07-31 22:08:30.979 -03:00 [INF] Sending file. Request path: '/js/dashboard.js'. Physical path: 'C:\Users\alfreire\onlidesk\RiderProjects\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor\wwwroot\js\dashboard.js'
+2025-07-31 22:08:30.982 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/js/dashboard.js - 200 20611 text/javascript 12.5775ms
+2025-07-31 22:08:31.119 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5165/monitoringhub/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0
+2025-07-31 22:08:31.123 -03:00 [INF] CORS policy execution successful.
+2025-07-31 22:08:31.125 -03:00 [INF] Executing endpoint '/monitoringhub/negotiate'
+2025-07-31 22:08:31.127 -03:00 [INF] Executed endpoint '/monitoringhub/negotiate'
+2025-07-31 22:08:31.129 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5165/monitoringhub/negotiate?negotiateVersion=1 - 200 316 application/json 9.3453ms
+2025-07-31 22:08:31.218 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/api/dashboard/stats - null null
+2025-07-31 22:08:31.220 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/api/dashboard/system-info - null null
+2025-07-31 22:08:31.221 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/api/dashboard/active-connections - null null
+2025-07-31 22:08:31.223 -03:00 [INF] Executing endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetDashboardStats (OliAcessoRemoto.Servidor)'
+2025-07-31 22:08:31.234 -03:00 [INF] Executing endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetSystemInfo (OliAcessoRemoto.Servidor)'
+2025-07-31 22:08:31.234 -03:00 [INF] Executing endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor)'
+2025-07-31 22:08:31.241 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/monitoringhub?id=tFs8Fqne4j_t7WCx-O-p0A - null null
+2025-07-31 22:08:31.250 -03:00 [INF] CORS policy execution successful.
+2025-07-31 22:08:31.251 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/@vite/client - null null
+2025-07-31 22:08:31.251 -03:00 [INF] Executing endpoint '/monitoringhub'
+2025-07-31 22:08:31.254 -03:00 [INF] CORS policy execution successful.
+2025-07-31 22:08:31.258 -03:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2025-07-31 22:08:31.264 -03:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'C:\Users\alfreire\onlidesk\RiderProjects\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor\wwwroot\index.html'
+2025-07-31 22:08:31.264 -03:00 [INF] Route matched with {action = "GetDashboardStats", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDashboardStats() on controller OliAcessoRemoto.Servidor.Controllers.DashboardController (OliAcessoRemoto.Servidor).
+2025-07-31 22:08:31.264 -03:00 [INF] Route matched with {action = "GetActiveConnections", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetActiveConnections() on controller OliAcessoRemoto.Servidor.Controllers.DashboardController (OliAcessoRemoto.Servidor).
+2025-07-31 22:08:31.264 -03:00 [INF] Route matched with {action = "GetSystemInfo", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSystemInfo() on controller OliAcessoRemoto.Servidor.Controllers.DashboardController (OliAcessoRemoto.Servidor).
+2025-07-31 22:08:31.265 -03:00 [INF] Monitoring client conectado: uDoszHmaz2nen6NDYxvH8Q
+2025-07-31 22:08:31.267 -03:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2025-07-31 22:08:31.299 -03:00 [INF] Dashboard conectado: uDoszHmaz2nen6NDYxvH8Q
+2025-07-31 22:08:31.300 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/index.html - 200 16888 text/html 48.662ms
+2025-07-31 22:08:31.333 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OliAcessoRemoto.Servidor.Models.DTOs.ActiveConnectionDto, OliAcessoRemoto.Servidor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-31 22:08:31.352 -03:00 [INF] Executed action OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor) in 76.7767ms
+2025-07-31 22:08:31.355 -03:00 [INF] Executed endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor)'
+2025-07-31 22:08:31.357 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/api/dashboard/active-connections - 200 null application/json; charset=utf-8 136.3988ms
+2025-07-31 22:08:31.522 -03:00 [INF] Executing OkObjectResult, writing value of type 'OliAcessoRemoto.Servidor.Models.DTOs.SystemInfoDto'.
+2025-07-31 22:08:31.529 -03:00 [INF] Executing OkObjectResult, writing value of type 'OliAcessoRemoto.Servidor.Models.DTOs.DashboardStatsDto'.
+2025-07-31 22:08:31.540 -03:00 [INF] Executed action OliAcessoRemoto.Servidor.Controllers.DashboardController.GetDashboardStats (OliAcessoRemoto.Servidor) in 270.4176ms
+2025-07-31 22:08:31.540 -03:00 [INF] Executed action OliAcessoRemoto.Servidor.Controllers.DashboardController.GetSystemInfo (OliAcessoRemoto.Servidor) in 266.7553ms
+2025-07-31 22:08:31.542 -03:00 [INF] Executed endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetDashboardStats (OliAcessoRemoto.Servidor)'
+2025-07-31 22:08:31.544 -03:00 [INF] Executed endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetSystemInfo (OliAcessoRemoto.Servidor)'
+2025-07-31 22:08:31.546 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/api/dashboard/stats - 200 null application/json; charset=utf-8 327.6268ms
+2025-07-31 22:08:31.548 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/api/dashboard/system-info - 200 null application/json; charset=utf-8 328.1548ms
+2025-07-31 23:45:17.400 -03:00 [INF] Monitoring client desconectado: uDoszHmaz2nen6NDYxvH8Q
+2025-07-31 23:45:17.407 -03:00 [INF] Executed endpoint '/monitoringhub'
+2025-07-31 23:45:17.407 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/?ide_webview_request_time=1754016317376 - null null
+2025-07-31 23:45:17.410 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/monitoringhub?id=tFs8Fqne4j_t7WCx-O-p0A - 101 null null 5806168.5611ms
+2025-07-31 23:45:17.415 -03:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2025-07-31 23:45:17.426 -03:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'C:\Users\alfreire\onlidesk\RiderProjects\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor\wwwroot\index.html'
+2025-07-31 23:45:17.427 -03:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2025-07-31 23:45:17.429 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/index.html?ide_webview_request_time=1754016317376 - 200 16888 text/html 21.6079ms
+2025-07-31 23:45:17.457 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/css/dashboard.css - null null
+2025-07-31 23:45:17.458 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/js/dashboard.js - null null
+2025-07-31 23:45:17.462 -03:00 [INF] The file /css/dashboard.css was not modified
+2025-07-31 23:45:17.464 -03:00 [INF] The file /js/dashboard.js was not modified
+2025-07-31 23:45:17.464 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/css/dashboard.css - 304 null text/css 7.1821ms
+2025-07-31 23:45:17.465 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/js/dashboard.js - 304 null text/javascript 6.6095ms
+2025-07-31 23:45:17.511 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5165/monitoringhub/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0
+2025-07-31 23:45:17.515 -03:00 [INF] CORS policy execution successful.
+2025-07-31 23:45:17.516 -03:00 [INF] Executing endpoint '/monitoringhub/negotiate'
+2025-07-31 23:45:17.520 -03:00 [INF] Executed endpoint '/monitoringhub/negotiate'
+2025-07-31 23:45:17.522 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5165/monitoringhub/negotiate?negotiateVersion=1 - 200 316 application/json 11.2061ms
+2025-07-31 23:45:17.542 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/api/dashboard/stats - null null
+2025-07-31 23:45:17.542 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/api/dashboard/system-info - null null
+2025-07-31 23:45:17.543 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/api/dashboard/active-connections - null null
+2025-07-31 23:45:17.545 -03:00 [INF] Executing endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetDashboardStats (OliAcessoRemoto.Servidor)'
+2025-07-31 23:45:17.548 -03:00 [INF] Executing endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetSystemInfo (OliAcessoRemoto.Servidor)'
+2025-07-31 23:45:17.551 -03:00 [INF] Executing endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor)'
+2025-07-31 23:45:17.559 -03:00 [INF] Route matched with {action = "GetSystemInfo", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSystemInfo() on controller OliAcessoRemoto.Servidor.Controllers.DashboardController (OliAcessoRemoto.Servidor).
+2025-07-31 23:45:17.559 -03:00 [INF] Route matched with {action = "GetActiveConnections", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetActiveConnections() on controller OliAcessoRemoto.Servidor.Controllers.DashboardController (OliAcessoRemoto.Servidor).
+2025-07-31 23:45:17.559 -03:00 [INF] Route matched with {action = "GetDashboardStats", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDashboardStats() on controller OliAcessoRemoto.Servidor.Controllers.DashboardController (OliAcessoRemoto.Servidor).
+2025-07-31 23:45:17.570 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/monitoringhub?id=vc54gdLSkysD6P7RMPf18w - null null
+2025-07-31 23:45:17.574 -03:00 [INF] CORS policy execution successful.
+2025-07-31 23:45:17.575 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OliAcessoRemoto.Servidor.Models.DTOs.ActiveConnectionDto, OliAcessoRemoto.Servidor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-31 23:45:17.576 -03:00 [INF] Executing endpoint '/monitoringhub'
+2025-07-31 23:45:17.577 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/@vite/client - null null
+2025-07-31 23:45:17.580 -03:00 [INF] Executed action OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor) in 16.3678ms
+2025-07-31 23:45:17.581 -03:00 [INF] CORS policy execution successful.
+2025-07-31 23:45:17.583 -03:00 [INF] Executed endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor)'
+2025-07-31 23:45:17.583 -03:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2025-07-31 23:45:17.584 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/api/dashboard/active-connections - 200 null application/json; charset=utf-8 41.1553ms
+2025-07-31 23:45:17.585 -03:00 [INF] The file /index.html was not modified
+2025-07-31 23:45:17.588 -03:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2025-07-31 23:45:17.590 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/index.html - 304 null text/html 12.252ms
+2025-07-31 23:45:17.592 -03:00 [INF] Monitoring client conectado: JrCbYF1IDSPEhzY8_WX2ow
+2025-07-31 23:45:17.596 -03:00 [INF] Dashboard conectado: JrCbYF1IDSPEhzY8_WX2ow
+2025-07-31 23:45:17.786 -03:00 [INF] Executing OkObjectResult, writing value of type 'OliAcessoRemoto.Servidor.Models.DTOs.DashboardStatsDto'.
+2025-07-31 23:45:17.789 -03:00 [INF] Executed action OliAcessoRemoto.Servidor.Controllers.DashboardController.GetDashboardStats (OliAcessoRemoto.Servidor) in 222.2461ms
+2025-07-31 23:45:17.790 -03:00 [INF] Executing OkObjectResult, writing value of type 'OliAcessoRemoto.Servidor.Models.DTOs.SystemInfoDto'.
+2025-07-31 23:45:17.791 -03:00 [INF] Executed endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetDashboardStats (OliAcessoRemoto.Servidor)'
+2025-07-31 23:45:17.794 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/api/dashboard/stats - 200 null application/json; charset=utf-8 251.9506ms
+2025-07-31 23:45:17.801 -03:00 [INF] Executed action OliAcessoRemoto.Servidor.Controllers.DashboardController.GetSystemInfo (OliAcessoRemoto.Servidor) in 239.0465ms
+2025-07-31 23:45:17.807 -03:00 [INF] Executed endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetSystemInfo (OliAcessoRemoto.Servidor)'
+2025-07-31 23:45:17.809 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/api/dashboard/system-info - 200 null application/json; charset=utf-8 266.6198ms
+2025-07-31 23:45:46.611 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/ - null null
+2025-07-31 23:45:46.615 -03:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2025-07-31 23:45:46.619 -03:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'C:\Users\alfreire\onlidesk\RiderProjects\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor\wwwroot\index.html'
+2025-07-31 23:45:46.621 -03:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2025-07-31 23:45:46.624 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/index.html - 200 16888 text/html 11.9087ms
+2025-07-31 23:45:46.731 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/css/dashboard.css - null null
+2025-07-31 23:45:46.733 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/js/dashboard.js - null null
+2025-07-31 23:45:46.737 -03:00 [INF] Sending file. Request path: '/css/dashboard.css'. Physical path: 'C:\Users\alfreire\onlidesk\RiderProjects\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor\wwwroot\css\dashboard.css'
+2025-07-31 23:45:46.743 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/css/dashboard.css - 200 4907 text/css 10.2738ms
+2025-07-31 23:45:46.744 -03:00 [INF] Sending file. Request path: '/js/dashboard.js'. Physical path: 'C:\Users\alfreire\onlidesk\RiderProjects\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor\OliAcessoRemoto.Servidor\wwwroot\js\dashboard.js'
+2025-07-31 23:45:46.753 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/js/dashboard.js - 200 20611 text/javascript 19.2538ms
+2025-07-31 23:45:47.028 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5165/monitoringhub/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0
+2025-07-31 23:45:47.030 -03:00 [INF] CORS policy execution successful.
+2025-07-31 23:45:47.032 -03:00 [INF] Executing endpoint '/monitoringhub/negotiate'
+2025-07-31 23:45:47.035 -03:00 [INF] Executed endpoint '/monitoringhub/negotiate'
+2025-07-31 23:45:47.037 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5165/monitoringhub/negotiate?negotiateVersion=1 - 200 316 application/json 9.047ms
+2025-07-31 23:45:47.112 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/api/dashboard/stats - null null
+2025-07-31 23:45:47.114 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/api/dashboard/system-info - null null
+2025-07-31 23:45:47.118 -03:00 [INF] Executing endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetDashboardStats (OliAcessoRemoto.Servidor)'
+2025-07-31 23:45:47.123 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/api/dashboard/active-connections - null null
+2025-07-31 23:45:47.128 -03:00 [INF] Executing endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetSystemInfo (OliAcessoRemoto.Servidor)'
+2025-07-31 23:45:47.130 -03:00 [INF] Route matched with {action = "GetDashboardStats", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDashboardStats() on controller OliAcessoRemoto.Servidor.Controllers.DashboardController (OliAcessoRemoto.Servidor).
+2025-07-31 23:45:47.140 -03:00 [INF] Executing endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor)'
+2025-07-31 23:45:47.144 -03:00 [INF] Route matched with {action = "GetSystemInfo", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSystemInfo() on controller OliAcessoRemoto.Servidor.Controllers.DashboardController (OliAcessoRemoto.Servidor).
+2025-07-31 23:45:47.151 -03:00 [INF] Route matched with {action = "GetActiveConnections", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetActiveConnections() on controller OliAcessoRemoto.Servidor.Controllers.DashboardController (OliAcessoRemoto.Servidor).
+2025-07-31 23:45:47.155 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/monitoringhub?id=xailLnLrtl40fu01iJfakw - null null
+2025-07-31 23:45:47.158 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OliAcessoRemoto.Servidor.Models.DTOs.ActiveConnectionDto, OliAcessoRemoto.Servidor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-31 23:45:47.160 -03:00 [INF] CORS policy execution successful.
+2025-07-31 23:45:47.162 -03:00 [INF] Executed action OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor) in 4.9066ms
+2025-07-31 23:45:47.162 -03:00 [INF] Executing endpoint '/monitoringhub'
+2025-07-31 23:45:47.168 -03:00 [INF] Executed endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor)'
+2025-07-31 23:45:47.173 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/api/dashboard/active-connections - 200 null application/json; charset=utf-8 48.925ms
+2025-07-31 23:45:47.177 -03:00 [INF] Monitoring client conectado: dD2VLq1ywVaCuAgG0ReE9w
+2025-07-31 23:45:47.182 -03:00 [INF] Dashboard conectado: dD2VLq1ywVaCuAgG0ReE9w
+2025-07-31 23:45:47.277 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/favicon.ico - null null
+2025-07-31 23:45:47.298 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/favicon.ico - 404 0 null 20.5757ms
+2025-07-31 23:45:47.307 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5165/favicon.ico, Response status code: 404
+2025-07-31 23:45:47.372 -03:00 [INF] Executing OkObjectResult, writing value of type 'OliAcessoRemoto.Servidor.Models.DTOs.DashboardStatsDto'.
+2025-07-31 23:45:47.374 -03:00 [INF] Executed action OliAcessoRemoto.Servidor.Controllers.DashboardController.GetDashboardStats (OliAcessoRemoto.Servidor) in 225.2324ms
+2025-07-31 23:45:47.376 -03:00 [INF] Executed endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetDashboardStats (OliAcessoRemoto.Servidor)'
+2025-07-31 23:45:47.378 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/api/dashboard/stats - 200 null application/json; charset=utf-8 265.9654ms
+2025-07-31 23:45:47.387 -03:00 [INF] Executing OkObjectResult, writing value of type 'OliAcessoRemoto.Servidor.Models.DTOs.SystemInfoDto'.
+2025-07-31 23:45:47.390 -03:00 [INF] Executed action OliAcessoRemoto.Servidor.Controllers.DashboardController.GetSystemInfo (OliAcessoRemoto.Servidor) in 235.4043ms
+2025-07-31 23:45:47.392 -03:00 [INF] Executed endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetSystemInfo (OliAcessoRemoto.Servidor)'
+2025-07-31 23:45:47.395 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/api/dashboard/system-info - 200 null application/json; charset=utf-8 280.3843ms
+2025-07-31 23:47:29.251 -03:00 [INF] Monitoring client desconectado: dD2VLq1ywVaCuAgG0ReE9w
+2025-07-31 23:47:29.252 -03:00 [INF] Executed endpoint '/monitoringhub'
+2025-07-31 23:47:29.254 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/monitoringhub?id=xailLnLrtl40fu01iJfakw - 101 null null 102098.6233ms
+2025-07-31 23:47:29.262 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/ - null null
+2025-07-31 23:47:29.266 -03:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2025-07-31 23:47:29.268 -03:00 [INF] The file /index.html was not modified
+2025-07-31 23:47:29.270 -03:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2025-07-31 23:47:29.271 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/index.html - 304 null text/html 9.258ms
+2025-07-31 23:47:29.320 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5165/monitoringhub/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0
+2025-07-31 23:47:29.323 -03:00 [INF] CORS policy execution successful.
+2025-07-31 23:47:29.325 -03:00 [INF] Executing endpoint '/monitoringhub/negotiate'
+2025-07-31 23:47:29.326 -03:00 [INF] Executed endpoint '/monitoringhub/negotiate'
+2025-07-31 23:47:29.328 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5165/monitoringhub/negotiate?negotiateVersion=1 - 200 316 application/json 7.7466ms
+2025-07-31 23:47:29.345 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/api/dashboard/stats - null null
+2025-07-31 23:47:29.345 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/api/dashboard/active-connections - null null
+2025-07-31 23:47:29.345 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/api/dashboard/system-info - null null
+2025-07-31 23:47:29.348 -03:00 [INF] Executing endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetDashboardStats (OliAcessoRemoto.Servidor)'
+2025-07-31 23:47:29.351 -03:00 [INF] Executing endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor)'
+2025-07-31 23:47:29.354 -03:00 [INF] Executing endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetSystemInfo (OliAcessoRemoto.Servidor)'
+2025-07-31 23:47:29.355 -03:00 [INF] Route matched with {action = "GetDashboardStats", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDashboardStats() on controller OliAcessoRemoto.Servidor.Controllers.DashboardController (OliAcessoRemoto.Servidor).
+2025-07-31 23:47:29.356 -03:00 [INF] Route matched with {action = "GetActiveConnections", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetActiveConnections() on controller OliAcessoRemoto.Servidor.Controllers.DashboardController (OliAcessoRemoto.Servidor).
+2025-07-31 23:47:29.357 -03:00 [INF] Route matched with {action = "GetSystemInfo", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSystemInfo() on controller OliAcessoRemoto.Servidor.Controllers.DashboardController (OliAcessoRemoto.Servidor).
+2025-07-31 23:47:29.364 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OliAcessoRemoto.Servidor.Models.DTOs.ActiveConnectionDto, OliAcessoRemoto.Servidor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-31 23:47:29.368 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/monitoringhub?id=R5Otr1NdL9InHHw220xkKg - null null
+2025-07-31 23:47:29.368 -03:00 [INF] Executed action OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor) in 5.3353ms
+2025-07-31 23:47:29.372 -03:00 [INF] CORS policy execution successful.
+2025-07-31 23:47:29.373 -03:00 [INF] Executed endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor)'
+2025-07-31 23:47:29.374 -03:00 [INF] Executing endpoint '/monitoringhub'
+2025-07-31 23:47:29.375 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/api/dashboard/active-connections - 200 null application/json; charset=utf-8 30.7124ms
+2025-07-31 23:47:29.379 -03:00 [INF] Monitoring client conectado: i36HEgJ4ge7BskSZu8e2Nw
+2025-07-31 23:47:29.381 -03:00 [INF] Dashboard conectado: i36HEgJ4ge7BskSZu8e2Nw
+2025-07-31 23:47:29.577 -03:00 [INF] Executing OkObjectResult, writing value of type 'OliAcessoRemoto.Servidor.Models.DTOs.DashboardStatsDto'.
+2025-07-31 23:47:29.579 -03:00 [INF] Executed action OliAcessoRemoto.Servidor.Controllers.DashboardController.GetDashboardStats (OliAcessoRemoto.Servidor) in 218.7304ms
+2025-07-31 23:47:29.580 -03:00 [INF] Executed endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetDashboardStats (OliAcessoRemoto.Servidor)'
+2025-07-31 23:47:29.581 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/api/dashboard/stats - 200 null application/json; charset=utf-8 237.0189ms
+2025-07-31 23:47:29.590 -03:00 [INF] Executing OkObjectResult, writing value of type 'OliAcessoRemoto.Servidor.Models.DTOs.SystemInfoDto'.
+2025-07-31 23:47:29.591 -03:00 [INF] Executed action OliAcessoRemoto.Servidor.Controllers.DashboardController.GetSystemInfo (OliAcessoRemoto.Servidor) in 225.1541ms
+2025-07-31 23:47:29.593 -03:00 [INF] Executed endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetSystemInfo (OliAcessoRemoto.Servidor)'
+2025-07-31 23:47:29.594 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/api/dashboard/system-info - 200 null application/json; charset=utf-8 249.7574ms
+2025-07-31 23:47:58.337 -03:00 [INF] Monitoring client desconectado: i36HEgJ4ge7BskSZu8e2Nw
+2025-07-31 23:47:58.339 -03:00 [INF] Executed endpoint '/monitoringhub'
+2025-07-31 23:47:58.341 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/monitoringhub?id=R5Otr1NdL9InHHw220xkKg - 101 null null 28972.8502ms
+2025-07-31 23:50:11.197 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5165/monitoringhub/negotiate?negotiateVersion=1 - text/plain;charset=UTF-8 0
+2025-07-31 23:50:11.202 -03:00 [INF] CORS policy execution successful.
+2025-07-31 23:50:11.206 -03:00 [INF] Executing endpoint '/monitoringhub/negotiate'
+2025-07-31 23:50:11.209 -03:00 [INF] Executed endpoint '/monitoringhub/negotiate'
+2025-07-31 23:50:11.214 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5165/monitoringhub/negotiate?negotiateVersion=1 - 200 316 application/json 17.2864ms
+2025-07-31 23:50:11.295 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/api/dashboard/stats - null null
+2025-07-31 23:50:11.301 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/api/dashboard/system-info - null null
+2025-07-31 23:50:11.302 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/api/dashboard/active-connections - null null
+2025-07-31 23:50:11.306 -03:00 [INF] Executing endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetDashboardStats (OliAcessoRemoto.Servidor)'
+2025-07-31 23:50:11.308 -03:00 [INF] Executing endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetSystemInfo (OliAcessoRemoto.Servidor)'
+2025-07-31 23:50:11.316 -03:00 [INF] Executing endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor)'
+2025-07-31 23:50:11.317 -03:00 [INF] Route matched with {action = "GetDashboardStats", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDashboardStats() on controller OliAcessoRemoto.Servidor.Controllers.DashboardController (OliAcessoRemoto.Servidor).
+2025-07-31 23:50:11.322 -03:00 [INF] Route matched with {action = "GetSystemInfo", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSystemInfo() on controller OliAcessoRemoto.Servidor.Controllers.DashboardController (OliAcessoRemoto.Servidor).
+2025-07-31 23:50:11.325 -03:00 [INF] Route matched with {action = "GetActiveConnections", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetActiveConnections() on controller OliAcessoRemoto.Servidor.Controllers.DashboardController (OliAcessoRemoto.Servidor).
+2025-07-31 23:50:11.326 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/monitoringhub?id=xpuRO1Sfx8gEC7FzQaFZng - null null
+2025-07-31 23:50:11.332 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/favicon.ico - null null
+2025-07-31 23:50:11.338 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OliAcessoRemoto.Servidor.Models.DTOs.ActiveConnectionDto, OliAcessoRemoto.Servidor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-31 23:50:11.340 -03:00 [INF] CORS policy execution successful.
+2025-07-31 23:50:11.344 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/favicon.ico - 404 0 null 11.8128ms
+2025-07-31 23:50:11.345 -03:00 [INF] Executed action OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor) in 7.3117ms
+2025-07-31 23:50:11.345 -03:00 [INF] Executing endpoint '/monitoringhub'
+2025-07-31 23:50:11.348 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5165/favicon.ico, Response status code: 404
+2025-07-31 23:50:11.349 -03:00 [INF] Executed endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor)'
+2025-07-31 23:50:11.359 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/api/dashboard/active-connections - 200 null application/json; charset=utf-8 57.0354ms
+2025-07-31 23:50:11.360 -03:00 [INF] Monitoring client conectado: 6OayAY3HNrVYuMBE66XmKg
+2025-07-31 23:50:11.368 -03:00 [INF] Dashboard conectado: 6OayAY3HNrVYuMBE66XmKg
+2025-07-31 23:50:11.567 -03:00 [INF] Executing OkObjectResult, writing value of type 'OliAcessoRemoto.Servidor.Models.DTOs.SystemInfoDto'.
+2025-07-31 23:50:11.570 -03:00 [INF] Executed action OliAcessoRemoto.Servidor.Controllers.DashboardController.GetSystemInfo (OliAcessoRemoto.Servidor) in 235.9195ms
+2025-07-31 23:50:11.572 -03:00 [INF] Executing OkObjectResult, writing value of type 'OliAcessoRemoto.Servidor.Models.DTOs.DashboardStatsDto'.
+2025-07-31 23:50:11.572 -03:00 [INF] Executed endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetSystemInfo (OliAcessoRemoto.Servidor)'
+2025-07-31 23:50:11.573 -03:00 [INF] Executed action OliAcessoRemoto.Servidor.Controllers.DashboardController.GetDashboardStats (OliAcessoRemoto.Servidor) in 243.9465ms
+2025-07-31 23:50:11.574 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/api/dashboard/system-info - 200 null application/json; charset=utf-8 273.1701ms
+2025-07-31 23:50:11.575 -03:00 [INF] Executed endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetDashboardStats (OliAcessoRemoto.Servidor)'
+2025-07-31 23:50:11.580 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/api/dashboard/stats - 200 null application/json; charset=utf-8 284.5775ms
+2025-07-31 23:50:28.307 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/api/dashboard/active-connections - null null
+2025-07-31 23:50:28.310 -03:00 [INF] Executing endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor)'
+2025-07-31 23:50:28.312 -03:00 [INF] Route matched with {action = "GetActiveConnections", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetActiveConnections() on controller OliAcessoRemoto.Servidor.Controllers.DashboardController (OliAcessoRemoto.Servidor).
+2025-07-31 23:50:28.315 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OliAcessoRemoto.Servidor.Models.DTOs.ActiveConnectionDto, OliAcessoRemoto.Servidor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-31 23:50:28.317 -03:00 [INF] Executed action OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor) in 3.0341ms
+2025-07-31 23:50:28.321 -03:00 [INF] Executed endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor)'
+2025-07-31 23:50:28.325 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/api/dashboard/active-connections - 200 null application/json; charset=utf-8 18.495ms
+2025-07-31 23:50:29.181 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/api/dashboard/active-connections - null null
+2025-07-31 23:50:29.184 -03:00 [INF] Executing endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor)'
+2025-07-31 23:50:29.185 -03:00 [INF] Route matched with {action = "GetActiveConnections", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetActiveConnections() on controller OliAcessoRemoto.Servidor.Controllers.DashboardController (OliAcessoRemoto.Servidor).
+2025-07-31 23:50:29.189 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OliAcessoRemoto.Servidor.Models.DTOs.ActiveConnectionDto, OliAcessoRemoto.Servidor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-31 23:50:29.190 -03:00 [INF] Executed action OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor) in 2.3823ms
+2025-07-31 23:50:29.191 -03:00 [INF] Executed endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor)'
+2025-07-31 23:50:29.192 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/api/dashboard/active-connections - 200 null application/json; charset=utf-8 10.764ms
+2025-07-31 23:50:29.453 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/api/dashboard/active-connections - null null
+2025-07-31 23:50:29.455 -03:00 [INF] Executing endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor)'
+2025-07-31 23:50:29.456 -03:00 [INF] Route matched with {action = "GetActiveConnections", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetActiveConnections() on controller OliAcessoRemoto.Servidor.Controllers.DashboardController (OliAcessoRemoto.Servidor).
+2025-07-31 23:50:29.459 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OliAcessoRemoto.Servidor.Models.DTOs.ActiveConnectionDto, OliAcessoRemoto.Servidor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-31 23:50:29.461 -03:00 [INF] Executed action OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor) in 2.262ms
+2025-07-31 23:50:29.463 -03:00 [INF] Executed endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor)'
+2025-07-31 23:50:29.464 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/api/dashboard/active-connections - 200 null application/json; charset=utf-8 11.5951ms
+2025-07-31 23:50:29.800 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/api/dashboard/active-connections - null null
+2025-07-31 23:50:29.802 -03:00 [INF] Executing endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor)'
+2025-07-31 23:50:29.803 -03:00 [INF] Route matched with {action = "GetActiveConnections", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetActiveConnections() on controller OliAcessoRemoto.Servidor.Controllers.DashboardController (OliAcessoRemoto.Servidor).
+2025-07-31 23:50:29.811 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OliAcessoRemoto.Servidor.Models.DTOs.ActiveConnectionDto, OliAcessoRemoto.Servidor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-31 23:50:29.814 -03:00 [INF] Executed action OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor) in 8.6452ms
+2025-07-31 23:50:29.816 -03:00 [INF] Executed endpoint 'OliAcessoRemoto.Servidor.Controllers.DashboardController.GetActiveConnections (OliAcessoRemoto.Servidor)'
+2025-07-31 23:50:29.817 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/api/dashboard/active-connections - 200 null application/json; charset=utf-8 17.1144ms
+2025-07-31 23:50:36.909 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5165/api/reports/statistics - null null
+2025-07-31 23:50:36.912 -03:00 [INF] Executing endpoint 'OliAcessoRemoto.Servidor.Controllers.ReportsController.GetStatistics (OliAcessoRemoto.Servidor)'
+2025-07-31 23:50:36.983 -03:00 [INF] Route matched with {action = "GetStatistics", controller = "Reports"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStatistics(System.Nullable`1[System.DateTime], System.Nullable`1[System.DateTime]) on controller OliAcessoRemoto.Servidor.Controllers.ReportsController (OliAcessoRemoto.Servidor).
+2025-07-31 23:50:37.217 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-31 23:50:37.251 -03:00 [INF] Executed action OliAcessoRemoto.Servidor.Controllers.ReportsController.GetStatistics (OliAcessoRemoto.Servidor) in 266.1057ms
+2025-07-31 23:50:37.253 -03:00 [INF] Executed endpoint 'OliAcessoRemoto.Servidor.Controllers.ReportsController.GetStatistics (OliAcessoRemoto.Servidor)'
+2025-07-31 23:50:37.255 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/api/reports/statistics - 200 null application/json; charset=utf-8 346.0134ms
+2025-07-31 23:50:40.594 -03:00 [INF] Monitoring client desconectado: 6OayAY3HNrVYuMBE66XmKg
+2025-07-31 23:50:40.596 -03:00 [INF] Executed endpoint '/monitoringhub'
+2025-07-31 23:50:40.597 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/monitoringhub?id=xpuRO1Sfx8gEC7FzQaFZng - 101 null null 29271.2511ms
+2025-07-31 23:55:36.512 -03:00 [INF] Monitoring client desconectado: JrCbYF1IDSPEhzY8_WX2ow
+2025-07-31 23:55:36.515 -03:00 [INF] Executed endpoint '/monitoringhub'
+2025-07-31 23:55:36.517 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5165/monitoringhub?id=vc54gdLSkysD6P7RMPf18w - 101 null null 618946.3954ms
